@@ -1,0 +1,382 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding: 60px;
+    background-image: url('../img/banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-heading {
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.banner-text {
+    font-size: 1rem;
+    font-weight: normal;
+    background-color: #fff;
+    padding: 30px;
+    color: black;
+}
+
+.custom-font {
+    font-family: 'playfair display', serif;
+}
+
+.row-column {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #d9b1b3;
+    color: white;
+}
+
+.first-middle {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.first-middle span {
+    font-size: 6rem;
+    line-height: 0;
+}
+.middle p {
+    font-size: 0.8rem;
+    width: 50%;
+}
+
+.row-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery .img-container {
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery .gallery-img-1 {
+    background-image: url(../img/gallery-1.jpeg);
+}
+
+.gallery .gallery-img-2 {
+    background-image: url(../img/gallery-2.jpeg);
+}
+
+.gallery .gallery-img-3 {
+    background-image: url(../img/gallery-3.jpeg);
+}
+
+.gallery .gallery-img-4 {
+    background-image: url(../img/gallery-4.jpeg);
+}
+
+.gallery .gallery-img-5 {
+    background-image: url(../img/gallery-5.jpeg);
+}
+
+.gallery .gallery-img-6 {
+    background-image: url(../img/gallery-6.jpeg);
+}
+
+.coming-soon {
+    background-color: #d9b1b3;
+    padding: 50px 0;
+    color: white;
+}
+
+.row-column-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.coming-soon .row-column-100 {
+    justify-content: center;
+}
+
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form {
+    text-align: center;
+}
+
+.coming-soon .coming-soon-heading {
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.coming-soon .coming-soon-text {
+    font-size: 1.3rem;
+    margin-top: 17px;
+}
+
+.coming-soon .coming-soon-form {
+    margin-top: 50px;
+}
+
+.coming-soon-form .input-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.coming-soon-form .row-100 {
+    justify-content: center;
+}
+
+.input-container .text-input,
+.input-container .form-button {
+    padding: 12px 10px;
+    border: unset;
+    border-radius: 19px;
+}
+
+.input-container .form-button {
+    background-color: black;
+    color: white;
+    padding: 0 15px;
+}
+
+.article {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding-top: 45px;
+    justify-content: center;
+}
+
+.image {
+    width: 340px;
+    height: 450px;
+    padding-right: 40px;
+}
+
+.article .article-content .article-text {
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.slide {
+    background-color: #d9b1b3;
+    padding: 20px 0;
+    color: white;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    width: 80%;
+    margin: auto;
+}
+
+.slide .img-container {
+    height: 350px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 40px;
+}
+
+.slide .slide-img-1 {
+    background-image: url(../img/slide-1.jpg);
+}
+
+.slide .slide-img-2 {
+    background-image: url(../img/slide-2.jpg);
+}
+
+.slide .slide-img-3 {
+    background-image: url(../img/slide-3.jpg);
+}
+
+.slide .slide-img-4 {
+    background-image: url(../img/slide-4.jpg);
+}
+
+.slide-text {
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.arrow-sec {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.product {
+    width: 80%;
+    margin: auto;
+    padding-top: 75px;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-images {
+    display: flex;
+    flex-direction: row;
+    height: 440px;
+}
+
+.product-img-1 {
+    padding-right: 20px;
+    width: 350px;
+}
+
+.product-img-2 {
+    padding-right: 25px;
+    width: 350px;
+}
+.product-txt {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.product-header {
+    font-size: 30px;
+    font-family: tahoma;
+    padding-bottom: 30px;
+}
+
+.product-price {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 19px;
+}
+
+.product-content-1 {
+    padding-bottom: 25px;
+}
+
+.product-txt .form-button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 19px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 110px;
+}
+
+.subscribe-content {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-header .header {
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.sub-form {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.row-10 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.row-10 .input-container .text-input {
+    padding: 12px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.row-10 .input-container .form-button {
+    background-color: black;
+    color: white;
+    padding: 20px 35px;
+}
+
+.row-10 .input-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.sample-text {
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.twitter {
+    padding-left: 10px;
+    padding-right: 10px;
+}
